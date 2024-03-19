@@ -14,5 +14,5 @@ class u1p9
 		System.out.println("Compound Interest is "+ CI); 
 	} 
 } 
-// This code is contributed by Anant Agarwal. 
+
 
