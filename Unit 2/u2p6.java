@@ -78,8 +78,10 @@ public class u2p6 {
 
         numMethods m = new numMethods();
         int ch = 0;
+        do
+        {
 
-        System.out.println("1.Display\n2.sum\n3.avg\n4.max\n5.min");
+        System.out.println("1.Display\n2.sum\n3.avg\n4.max\n5.min \n6.exit");
         ch = sc.nextInt();
 
         switch (ch) {
@@ -103,6 +105,7 @@ public class u2p6 {
                 System.out.println("INvalid:");
 
         }
+    }while(ch!=6);
         sc.close();
     }
    
