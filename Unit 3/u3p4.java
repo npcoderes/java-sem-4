@@ -33,7 +33,7 @@ public class u3p4 {
         StringBuffer s2 = new StringBuffer(s1);
         String s3=new String(s2.reverse());
 
-        if(s3.equals(s2))
+        if(s3.equals(s1))
         {
             System.out.println("Palindrom : ");
 

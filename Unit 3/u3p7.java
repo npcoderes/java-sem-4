@@ -7,6 +7,7 @@ class ValidateRange extends Exception {
 public class u3p7 {
     public static void main(String as[]) {
         int m1, m2, m3;
+        float pr=0.0f;
         try {
             m1 = Integer.parseInt(as[0]);
             m2 = Integer.parseInt(as[1]);
@@ -16,6 +17,11 @@ public class u3p7 {
             } else {
                 if (m1 < 40 || m2 < 40 || m3 < 40) {
                     System.out.println("Fail");
+                }
+                else
+                {
+                    pr=m1+m2+m3;
+                    System.out.println(("pass : per :"+(pr/3)));
                 }
             }
         } catch (NumberFormatException e) {
