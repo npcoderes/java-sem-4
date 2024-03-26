@@ -26,6 +26,10 @@ public class u4p4 {
         fy f = new fy();
         sy s = new sy();
 
+f.setPriority(9);
+f.setPriority(3);
+
+
         f.start();
         s.start();
 
